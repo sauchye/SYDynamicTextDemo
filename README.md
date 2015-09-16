@@ -1,0 +1,2 @@
+# SYDynamicTextDemo
+Dynamic text demo
