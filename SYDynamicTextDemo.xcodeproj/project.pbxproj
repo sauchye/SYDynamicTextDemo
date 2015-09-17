@@ -14,6 +14,12 @@
 		023C843A1BA964F7003A47CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 023C84391BA964F7003A47CB /* Images.xcassets */; };
 		023C843D1BA964F7003A47CB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 023C843B1BA964F7003A47CB /* LaunchScreen.xib */; };
 		023C84491BA964F7003A47CB /* SYDynamicTextDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 023C84481BA964F7003A47CB /* SYDynamicTextDemoTests.m */; };
+		024E1DD11BAAA968007863F9 /* hud_error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 024E1DCF1BAAA968007863F9 /* hud_error@2x.png */; };
+		024E1DD21BAAA968007863F9 /* hud_success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 024E1DD01BAAA968007863F9 /* hud_success@2x.png */; };
+		02BAC1961BAA5F0F001F87C1 /* SYHUDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BAC1951BAA5F0F001F87C1 /* SYHUDView.m */; };
+		02BAC19A1BAA5FDE001F87C1 /* UITTTAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BAC1991BAA5FDE001F87C1 /* UITTTAttributedLabel.m */; };
+		02BAC19D1BAA6489001F87C1 /* SYWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BAC19C1BAA6489001F87C1 /* SYWebViewController.m */; };
+		6C9F3D19C7648E6ED4585F03 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8537A1B1F460C9A8BB07692 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,17 @@
 		023C84421BA964F7003A47CB /* SYDynamicTextDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SYDynamicTextDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		023C84471BA964F7003A47CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		023C84481BA964F7003A47CB /* SYDynamicTextDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYDynamicTextDemoTests.m; sourceTree = "<group>"; };
+		024E1DCF1BAAA968007863F9 /* hud_error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hud_error@2x.png"; sourceTree = "<group>"; };
+		024E1DD01BAAA968007863F9 /* hud_success@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hud_success@2x.png"; sourceTree = "<group>"; };
+		02BAC1941BAA5F0F001F87C1 /* SYHUDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYHUDView.h; sourceTree = "<group>"; };
+		02BAC1951BAA5F0F001F87C1 /* SYHUDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYHUDView.m; sourceTree = "<group>"; };
+		02BAC1981BAA5FDE001F87C1 /* UITTTAttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITTTAttributedLabel.h; sourceTree = "<group>"; };
+		02BAC1991BAA5FDE001F87C1 /* UITTTAttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITTTAttributedLabel.m; sourceTree = "<group>"; };
+		02BAC19B1BAA6489001F87C1 /* SYWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYWebViewController.h; sourceTree = "<group>"; };
+		02BAC19C1BAA6489001F87C1 /* SYWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYWebViewController.m; sourceTree = "<group>"; };
+		3BD88C40CBD48418AE168402 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		D8537A1B1F460C9A8BB07692 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB39F3DBDD28B797EF1107B7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C9F3D19C7648E6ED4585F03 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +84,8 @@
 				023C842B1BA964F7003A47CB /* SYDynamicTextDemo */,
 				023C84451BA964F7003A47CB /* SYDynamicTextDemoTests */,
 				023C842A1BA964F7003A47CB /* Products */,
+				8C20290A944156EC363A5AB4 /* Pods */,
+				422EF8501D4994EF903D7C1C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,10 +101,14 @@
 		023C842B1BA964F7003A47CB /* SYDynamicTextDemo */ = {
 			isa = PBXGroup;
 			children = (
+				02BAC1971BAA5FDE001F87C1 /* Comment */,
+				02BAC1931BAA5F0F001F87C1 /* HUDView */,
 				023C84301BA964F7003A47CB /* AppDelegate.h */,
 				023C84311BA964F7003A47CB /* AppDelegate.m */,
 				023C84331BA964F7003A47CB /* ViewController.h */,
 				023C84341BA964F7003A47CB /* ViewController.m */,
+				02BAC19B1BAA6489001F87C1 /* SYWebViewController.h */,
+				02BAC19C1BAA6489001F87C1 /* SYWebViewController.m */,
 				023C84361BA964F7003A47CB /* Main.storyboard */,
 				023C84391BA964F7003A47CB /* Images.xcassets */,
 				023C843B1BA964F7003A47CB /* LaunchScreen.xib */,
@@ -119,6 +143,51 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		024E1DCE1BAAA968007863F9 /* HudView */ = {
+			isa = PBXGroup;
+			children = (
+				024E1DCF1BAAA968007863F9 /* hud_error@2x.png */,
+				024E1DD01BAAA968007863F9 /* hud_success@2x.png */,
+			);
+			path = HudView;
+			sourceTree = "<group>";
+		};
+		02BAC1931BAA5F0F001F87C1 /* HUDView */ = {
+			isa = PBXGroup;
+			children = (
+				024E1DCE1BAAA968007863F9 /* HudView */,
+				02BAC1941BAA5F0F001F87C1 /* SYHUDView.h */,
+				02BAC1951BAA5F0F001F87C1 /* SYHUDView.m */,
+			);
+			path = HUDView;
+			sourceTree = "<group>";
+		};
+		02BAC1971BAA5FDE001F87C1 /* Comment */ = {
+			isa = PBXGroup;
+			children = (
+				02BAC1981BAA5FDE001F87C1 /* UITTTAttributedLabel.h */,
+				02BAC1991BAA5FDE001F87C1 /* UITTTAttributedLabel.m */,
+			);
+			path = Comment;
+			sourceTree = "<group>";
+		};
+		422EF8501D4994EF903D7C1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8537A1B1F460C9A8BB07692 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C20290A944156EC363A5AB4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB39F3DBDD28B797EF1107B7 /* Pods.debug.xcconfig */,
+				3BD88C40CBD48418AE168402 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +195,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 023C844C1BA964F7003A47CB /* Build configuration list for PBXNativeTarget "SYDynamicTextDemo" */;
 			buildPhases = (
+				61AE9625E686368AFBD7331B /* Check Pods Manifest.lock */,
 				023C84251BA964F7003A47CB /* Sources */,
 				023C84261BA964F7003A47CB /* Frameworks */,
 				023C84271BA964F7003A47CB /* Resources */,
+				2787BB06B91DED35EFCA0E87 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -163,6 +234,7 @@
 		023C84211BA964F7003A47CB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SY;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = sauchye.com;
 				TargetAttributes = {
@@ -201,7 +273,9 @@
 			files = (
 				023C84381BA964F7003A47CB /* Main.storyboard in Resources */,
 				023C843D1BA964F7003A47CB /* LaunchScreen.xib in Resources */,
+				024E1DD21BAAA968007863F9 /* hud_success@2x.png in Resources */,
 				023C843A1BA964F7003A47CB /* Images.xcassets in Resources */,
+				024E1DD11BAAA968007863F9 /* hud_error@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,13 +288,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2787BB06B91DED35EFCA0E87 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61AE9625E686368AFBD7331B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		023C84251BA964F7003A47CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				023C84351BA964F7003A47CB /* ViewController.m in Sources */,
+				02BAC19D1BAA6489001F87C1 /* SYWebViewController.m in Sources */,
+				02BAC19A1BAA5FDE001F87C1 /* UITTTAttributedLabel.m in Sources */,
 				023C84321BA964F7003A47CB /* AppDelegate.m in Sources */,
+				02BAC1961BAA5F0F001F87C1 /* SYHUDView.m in Sources */,
 				023C842F1BA964F7003A47CB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,6 +455,7 @@
 		};
 		023C844D1BA964F7003A47CB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB39F3DBDD28B797EF1107B7 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SYDynamicTextDemo/Info.plist;
@@ -355,6 +466,7 @@
 		};
 		023C844E1BA964F7003A47CB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BD88C40CBD48418AE168402 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SYDynamicTextDemo/Info.plist;
@@ -416,6 +528,7 @@
 				023C844E1BA964F7003A47CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		023C844F1BA964F7003A47CB /* Build configuration list for PBXNativeTarget "SYDynamicTextDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +537,7 @@
 				023C84511BA964F7003A47CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
