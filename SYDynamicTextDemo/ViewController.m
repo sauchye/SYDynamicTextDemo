@@ -162,7 +162,7 @@ static inline NSRegularExpression * isContentUrlExpression() {
 - (void)attributedLabel:(TTTAttributedLabel *)label didSelectLinkWithURL:(NSURL *)url
 {
     SYWebViewController *webVC = [[SYWebViewController alloc] init];
-    webVC.url = url;//[NSURL URLWithString:@"http://weibo.com"];
+    webVC.url = url;
     [self.navigationController pushViewController:webVC animated:YES];
 }
 

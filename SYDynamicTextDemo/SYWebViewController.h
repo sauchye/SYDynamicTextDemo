@@ -12,6 +12,6 @@
 
 
 /** url*/
-@property (nonatomic, copy) NSURL *url;
+@property (nonatomic, strong) NSURL *url;
 
 @end
